@@ -1,5 +1,5 @@
 import 'package:flutter_playground/presentation/course/screen/course/course_detail_screen.dart';
-import 'package:flutter_playground/presentation/course/state/course/courses.dart';
+import 'package:flutter_playground/app/usecase/course/courses.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 

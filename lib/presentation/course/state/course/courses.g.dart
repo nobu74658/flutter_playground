@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'courses.dart';
+part of '../../../../app/usecase/course/courses.dart';
 
 // **************************************************************************
 // RiverpodGenerator

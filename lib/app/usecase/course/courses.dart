@@ -4,7 +4,7 @@ import 'package:flutter_playground/model/course/entity.dart';
 import 'package:flutter_playground/presentation/course/state/course/course_manager.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
-part 'courses.g.dart';
+part '../../../presentation/course/state/course/courses.g.dart';
 
 @riverpod
 class CourseListManagerValue extends _$CourseListManagerValue {
