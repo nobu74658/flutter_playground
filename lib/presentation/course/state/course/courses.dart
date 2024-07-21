@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:flutter_playground/course/models/course/entity.dart';
-import 'package:flutter_playground/course/ui/state/course/course_manager.dart';
+import 'package:flutter_playground/model/course/entity.dart';
+import 'package:flutter_playground/presentation/course/state/course/course_manager.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'courses.g.dart';

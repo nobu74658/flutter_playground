@@ -1,9 +1,9 @@
-import 'package:flutter_playground/course/ui/screen/course/course_detail_screen.dart';
-import 'package:flutter_playground/course/ui/state/course/courses.dart';
+import 'package:flutter_playground/presentation/course/screen/course/course_detail_screen.dart';
+import 'package:flutter_playground/presentation/course/state/course/courses.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-class SampleCourseListScreen extends ConsumerWidget {
+class SampleCourseListScreen extends HookConsumerWidget {
   const SampleCourseListScreen({super.key});
 
   @override

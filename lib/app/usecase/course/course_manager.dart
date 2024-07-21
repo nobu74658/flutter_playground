@@ -1,7 +1,24 @@
 import 'dart:async';
 
-import 'package:flutter_playground/course/models/course/entity.dart';
-import 'package:flutter_playground/course/interface/course_repository.dart';
+import 'package:flutter_playground/model/course/entity.dart';
+import 'package:flutter_playground/infra/course/course_repository.dart';
+
+
+@riverpod
+CourseManager? courseManager(CourseManagerRef ref) {
+  final currentProducer = ref.read(currentProducerProvider).requireValue;
+  return CourseManager(
+    repository: ref.watch(
+      courseRepositoryProvider(
+        areaId: currentProducer.areaId,
+        producerId: currentProducer.producerId,
+      ),
+    ),
+    condition: CourseCondition(
+      from: DateTime(2023, 7, 5),
+    ),
+  );
+}
 
 class CourseManager {
   CourseManager({

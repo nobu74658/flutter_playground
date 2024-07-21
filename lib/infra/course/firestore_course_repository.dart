@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter_playground/course/models/course/entity.dart';
-import 'package:flutter_playground/course/interface/course_repository.dart';
+import 'package:flutter_playground/model/course/entity.dart';
+import 'package:flutter_playground/infra/course/course_repository.dart';
 import 'package:flutter_playground/firestore_access_mixin.dart';
 
 class FirestoreCourseRepository extends CourseRepository

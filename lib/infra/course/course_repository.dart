@@ -1,4 +1,4 @@
-import 'package:flutter_playground/course/models/course/entity.dart';
+import 'package:flutter_playground/model/course/entity.dart';
 
 abstract class CourseRepository {
   CourseRepository({

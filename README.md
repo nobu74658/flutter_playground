@@ -1,16 +1,17 @@
-# flutter_playground
+# アーキテクチャ
+1. api
+データベースとのやり取りを行うAPIを提供する
+情報の取得などを行い値を返すような関数を定義
 
-A new Flutter project.
+2. model
+modelsディレクトリではAPIのレスポンスなどのモデル（型）を管理
+今回はDBからのレスポンスとアプリ内でのモデルが一致するため、DBのモデルをそのまま利用
 
-## Getting Started
+3. 
 
-This project is a starting point for a Flutter flutter_playgroundlication.
+controller
+画面内のvalidation
+入力がすべて入っているかとか
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter flutter_playground](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+modelの近く
+idがそもそも存在するのかとかのvalidation

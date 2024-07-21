@@ -1,5 +1,5 @@
-import 'package:flutter_playground/course/course_manager.dart';
-import 'package:flutter_playground/course/interface/course_repository.dart';
+import 'package:flutter_playground/app/usecase/course/course_manager.dart';
+import 'package:flutter_playground/infra/course/course_repository.dart';
 import 'package:flutter_playground/producer/provider/provider.dart';
 import 'package:flutter_playground/service_locator.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:flutter_playground/course/models/course/entity.dart';
-import 'package:flutter_playground/course/ui/state/course/course_service.dart';
+import 'package:flutter_playground/model/course/entity.dart';
+import 'package:flutter_playground/presentation/course/state/course/course_service.dart';
 import 'package:gap/gap.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
